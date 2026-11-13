@@ -13,8 +13,13 @@ them here.
   personal data. Report a discovered secret to the maintainer by location only.
 - **Scope.** Only reusable, open-source, provider-neutral media foundation
   capabilities belong here; see the exclusions in `GOVERNANCE.md`.
-- **Authority.** Open draft pull requests only. Never merge, approve, push to
-  `main` or change repository settings; the repository maintainer decides and
-  merges. Comments you post say they are AI-generated.
-- **Review.** Every pull request is reviewed before the maintainer merges it.
-  Report what you validated, on which commit, and anything not run.
+- **Authority.** Open draft pull requests only. Never merge, approve, mark a
+  pull request ready, push to `main`, rewrite `main`'s history or change
+  repository settings; the repository maintainer decides and merges. Comments
+  you post say they are AI-generated.
+- **Review.** Every pull request gets an independent external review before
+  the maintainer merges it, by a reviewer other than its author; the author's
+  own review never counts. Report what you validated, on which commit, and
+  anything not run.
+- **Guidance.** If the contribution or review process for your change is
+  unclear, ask the maintainer before you act.
